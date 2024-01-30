@@ -29,8 +29,8 @@ pip install -e . --no-deps
 pip install -r requirements.txt
 ```
 
-To train locally, on your own host machine, it's required to clone the repository with all the necessary data. 
-To train models on your own simply run the following files:
+To train locally, on your own host machine, it's required to clone the repository with all the necessary data. Make sure you change ```WORK_DIR``` in `constants.py` to your local working directory.
+Then run the following files:
 
 ```
 python src/sentiment_model_train.py
