@@ -41,6 +41,7 @@ To test the classification system on your own examples, run:
 ```
 python src/classification_test
 ```
+and enter your review.
 
 ## Project status
 The project is completed.
